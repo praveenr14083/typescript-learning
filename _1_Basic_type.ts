@@ -1,30 +1,30 @@
-// String 
-let userName:string = "Praveen";
-console.log(userName,typeof userName);
+// String
+let userName: string = "Praveen";
+console.log(userName, typeof userName);
 
 // Number
-let userId:number = 12
-console.log(userId,typeof userId);
+let userId: number = 12;
+console.log(userId, typeof userId);
 
 // Boolean
-let isBoolean:boolean = true;
-console.log(isBoolean,typeof isBoolean);
+let isBoolean: boolean = true;
+console.log(isBoolean, typeof isBoolean);
 
 // Null
-let nullTest:null = null
-console.log(nullTest,typeof nullTest); // null object
+let nullTest: null = null;
+console.log(nullTest, typeof nullTest); // null object
 
 // Undefined
-let undefinedCheck:undefined = undefined;
-console.log(undefinedCheck,typeof undefinedCheck); // undefined undefined
+let undefinedCheck: undefined = undefined;
+console.log(undefinedCheck, typeof undefinedCheck); // undefined undefined
 
 // Any
-let anyType:any = "Praveen";
+let anyType: any = "Praveen";
 anyType = 20;
-console.log(anyType,typeof anyType); //20 number
+console.log(anyType, typeof anyType); //20 number
 
 // unknown
-let unknownType:unknown = "Praveen";
+let unknownType: unknown = "Praveen";
 // unknownType = 123
 if (typeof unknownType === "string") {
   console.log(unknownType.toUpperCase()); //PRAVEEN
@@ -37,8 +37,8 @@ function throwError(message: string): never {
 // throwError("Somthing went wrong");
 
 // Void
-const greeting = (name:string):void => {
-    console.log(`${name} Good morning!`);
-}
+const greeting = (name: string): void => {
+  console.log(`${name} Good morning!`);
+};
 
 greeting("Praveen");
